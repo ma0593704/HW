@@ -7,11 +7,11 @@ public class HW2 {
         Scanner in = new Scanner(System.in);
         double result;
         System.out.println("Введите первое число");
-        int first_number = in.nextInt();
+        double first_number = in.nextDouble();
         System.out.println("Введите второе число");
-        int second_number = in.nextInt();
+        double second_number = in.nextDouble();
         System.out.println("Введите 3,5,7 или 9");
-        int third_number = in.nextInt();
+        byte third_number = in.nextByte();
         switch (third_number) {
             case 3:
                 result = first_number + second_number + third_number;
