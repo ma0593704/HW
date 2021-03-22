@@ -14,8 +14,8 @@ public class HW4 {
         else if (number > 10) System.out.println("Неккоректная цифра");
         else {
             if (number == a) System.out.println("Вы угадали!");
-            else if (number < a) System.out.println("Загаданное число меньше");
-            else System.out.println("Загаданное число больше");
+            else if (number < a) System.out.println("Загаданное число больше");
+            else System.out.println("Загаданное число меньше");
         }
 
     }
