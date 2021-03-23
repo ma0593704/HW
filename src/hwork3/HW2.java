@@ -19,8 +19,8 @@ public class HW2 {
         System.out.println(Arrays.toString(m1));
         int a = Arrays.binarySearch(m1, max);
         int b = Arrays.binarySearch(m1, min);
-        m1[a]=min;
-        m1[b]=max;
+        m1[a] = min;
+        m1[b] = max;
         System.out.println(Arrays.toString(m1));
     }
 }

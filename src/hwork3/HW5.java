@@ -2,9 +2,9 @@ package hwork3;
 
 import java.util.Arrays;
 
-public class HW4 {
+public class HW5 {
     public static void main(String[] args) {
-        int[] m = {-24, 764, 75, -77, 55676, 8, -64, -766, -8, 0};
+        int[] m = {-321, 894, -45, 782, -29, 12, -88};
         Arrays.sort(m);
         int count = 0, count1 = -1;
         System.out.println(Arrays.toString(m));
@@ -21,6 +21,5 @@ public class HW4 {
             }
         }
         System.out.println(Arrays.toString(n));
-
     }
 }

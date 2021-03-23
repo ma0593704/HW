@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class HW3 {
     public static void main(String[] args) {
-        int count1 = 0, count2 = 0, count3 = -1,count4 = -1;
+        int count1 = 0, count2 = 0, count3 = -1, count4 = -1;
         int[] m1 = {78, 32, 76, 100, 0, 6301, 331, 77, 24, 2, 90};
         Arrays.sort(m1);
         for (int i = 0; i < m1.length; i++) {
