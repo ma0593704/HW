@@ -9,13 +9,15 @@ public class HW4 {
         System.out.println("Загаданное число = " + a);
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число от 1 до 9 или 0 для выхода");
-        int number = in.nextInt();
-        if (number == 0) return;
-        else if (number > 10) System.out.println("Неккоректная цифра");
-        else {
-            if (number == a) System.out.println("Вы угадали!");
-            else if (number < a) System.out.println("Загаданное число больше");
-            else System.out.println("Загаданное число меньше");
+        while (true){
+            int number = in.nextInt();
+            if (number == 0) break;
+            else if (number > 10) System.out.println("Неккоректная цифра");
+            else {
+                if (number == a) System.out.println("Вы угадали!");
+                else if (number < a) System.out.println("Загаданное число больше");
+                else System.out.println("Загаданное число меньше");
+            }
         }
 
     }

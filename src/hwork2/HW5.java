@@ -11,5 +11,20 @@ public class HW5 {
             else System.out.println("Случайное число " + a + " содержится в интервале (25;200)");
 
         }
+
+       /* a = 1;
+        b = 100;
+        c = 0;
+        while (true){
+            c = a + (b - a) /2;
+            System.out.println(c);
+            // это число равно с?
+            // с число больше 50?
+            if (ans == 1) {
+                a = c + 1;
+            } else {
+                b = c - 1;
+            }*/
+        }
     }
-}
+
