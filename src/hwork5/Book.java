@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Book {
     private String booksName = "Название книги";
     private int sumPages = 1;
-    private Author[] authors;
+    public Author[] authors;
     private int year = 1900;
     private int authorCount=1;
 
@@ -65,6 +65,7 @@ public class Book {
                 authors[i] = author;
                 return;
             }
+
         }
         System.out.println("ошибка");
     }

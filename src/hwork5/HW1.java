@@ -13,7 +13,7 @@ public class HW1 {
         Book book5 = new Book("Про это", 111, 1956, 1);
 
 
-        Bank bank = new Bank(3);
+        Bank bank = new Bank(2);
 
         System.out.println(book1);
         System.out.println(book2);
