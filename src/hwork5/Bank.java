@@ -37,8 +37,12 @@ public class Bank {
         return uuid;
     }
 
-    private void setUuid() {
+    public void setUuid() {
         uuid = UUID.randomUUID();
+    }
+
+    public Book[] getBooks() {
+        return books;
     }
 
     @Override

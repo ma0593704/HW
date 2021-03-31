@@ -65,9 +65,12 @@ public class Book {
                 authors[i] = author;
                 return;
             }
-
         }
         System.out.println("ошибка");
+    }
+
+    public Author[] getAuthors() {
+        return authors;
     }
 
     @Override
